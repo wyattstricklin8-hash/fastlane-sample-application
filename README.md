@@ -23,7 +23,7 @@ This sample app demonstrates how to integrate with Fastlane using PayPal's REST 
     git clone https://github.com/paypal-examples/fastlane-sample-application.git
     ```
 2. Copy the `.env.example` file from the `server` folder and paste it into the folder for the server technology you want to use as `.env`. For example (substitute `node` for the technology of your choice):
-    ```
+
     cd fastlane-sample-application/server
     cp .env.example node/.env
     cd node
